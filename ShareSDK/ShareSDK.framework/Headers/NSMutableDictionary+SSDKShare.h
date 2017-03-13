@@ -115,12 +115,12 @@
 - (void)SSDKSetupWeChatParamsByText:(NSString *)text
                               title:(NSString *)title
                                 url:(NSURL *)url
-                         thumbImage:(id)thumbImage
-                              image:(id)image
-                       musicFileURL:(NSURL *)musicFileURL
-                            extInfo:(NSString *)extInfo
-                           fileData:(id)fileData
-                       emoticonData:(id)emoticonData
+                         thumbImage:(nullable id)thumbImage
+                              image:(nonnull id)image
+                       musicFileURL:(nullable NSURL *)musicFileURL
+                            extInfo:(nullable NSString *)extInfo
+                           fileData:(nullable id)fileData
+                       emoticonData:(nullable id)emoticonData
                                type:(SSDKContentType)type
                  forPlatformSubType:(SSDKPlatformType)platformSubType;
 
